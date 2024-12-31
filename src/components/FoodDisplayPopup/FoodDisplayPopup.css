@@ -1,0 +1,82 @@
+/* .food-display-popup {
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+} */
+
+.food-display-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 1000;
+}
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+.popup-content {
+    position: relative;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0px 25px 10px rgb(45, 46, 45);
+    z-index: 1001;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+}
+.close-btn {
+    position: absolute;
+    top: 1px;
+    right: 8px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+.popup-image-container {
+    margin-bottom: 15px;
+}
+.popup-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.popup-name {
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: green;
+}
+.popup-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #252323;
+    text-align: start;
+}
+.popup-nut-facts {
+    margin-top: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.popup-nut-facts h2 {
+    font-size: 27px;
+}
+.popup-nut-facts ul {
+    list-style: none;
+    font-size: 18px;
+}

@@ -1,0 +1,91 @@
+.Mission-Vision {
+    padding: 30px 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Mission-Vision-content {
+    display: flex;
+    gap: 80px;
+    background-color: lightgreen;
+    padding: 50px;
+    border-radius: 15px;
+}
+.Mission-Vision-content h1 {
+    font-size: 40px;
+    color: rgb(38, 146, 38);
+}
+.Mission-Vision-content p {
+    font-size: 18.5px;
+    color: #252323;
+    margin-top: 10px;
+}
+.quality-maintenance {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quality-maintenance h1 {
+    font-size: 40px;
+    color: rgb(52, 54, 52);
+}
+.quality-maintenance h2 {
+    font-size: 32px;
+    color: rgb(38, 146, 38);
+}
+.quality-maintenance p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.natural-healthy-statement ul {
+    margin-top: 10px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+@media (max-width:1075px) {
+    .Mission-Vision {
+        padding: 30px 60px;
+    }
+    .Mission-Vision-content {
+        gap: 50px;
+        padding: 50px;
+    }
+}
+@media (max-width:950px) {
+    .Mission-Vision {
+        padding: 30px 0px;
+    }
+    .Mission-Vision-content {
+        gap: 50px;
+        padding: 40px;
+    }
+    .Mission-Vision-content h1 {
+        font-size: 35px;
+    }
+    .Mission-Vision p {
+        font-size: 15.5px;
+    }
+    .quality-maintenance h1 {
+        font-size: 35px;
+    }
+    .quality-maintenance h2 {
+        font-size: 29px;
+    }
+}
+@media (max-width:520px) {
+    .Mission-Vision-content {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .quality-maintenance h1 {
+        font-size: 29px;
+    }
+    .quality-maintenance h2 {
+        font-size: 25px;
+    }
+}

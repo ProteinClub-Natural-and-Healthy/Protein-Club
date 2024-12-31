@@ -1,0 +1,99 @@
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    width: 100px;
+    border-radius: 10%;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: rgb(20, 112, 20);
+    font-size: 20px;
+}
+.navbar li {
+    cursor: pointer;
+}
+/* .navbar .basket-icon img {
+    height: 40px;
+    width: 40px;
+} */
+/* .navbar .navbar-right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+} */
+/* .basket-icon {
+    position: relative;
+}
+.basket-icon .basket-dot {
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: rgb(120, 215, 120);
+    border-radius: 50%;
+    top: -4px;
+    left: 26px;
+} */
+/* .navbar button {
+    background-color: transparent;
+    border: 1px solid rgb(120, 215, 120);
+    border-radius: 50px;
+    color: rgb(120, 215, 120);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+} */
+/* .navbar button:hover {
+    background-color: rgb(120, 215, 120);
+    color: white;
+} */
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(120, 215, 120);
+}
+@media (max-width: 1050px) {
+    .navbar .logo {
+        width: 100px;
+    }
+    .navbar .navbar-menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+    /* .navbar-right {
+        gap: 30px;
+    }
+    .navbar-right button {
+        padding: 8px 25px;
+    } */
+}
+@media (max-width: 900px) {
+    .navbar .logo {
+        width: 70px;
+    }
+    .navbar .navbar-menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+    /* .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right button {
+        padding: 7px 20px;
+    } */
+}
+@media (max-width: 750px) {
+    .navbar .navbar-menu {
+        display: none;
+    }
+}
+/* @media (max-width: 500px) {
+    .navbar-right button {
+        padding: 6px 15px;
+        font-size: 3vw;
+    }
+} */
